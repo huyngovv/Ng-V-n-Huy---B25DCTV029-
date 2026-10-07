@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 25px 15px;
+  background-color: #f4f7f6;
+  color: #333333;
+  transition: 0.2s;
+}
+
+.container {
+  width: min(820px, 100%);
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 25px 35px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 15px;
+  margin-bottom: 18px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #0066cc;
+  font-size: 30px;
+}
+
+.greeting {
+  color: #e67e22;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  margin-top: 5px;
+  color: #666;
+}
+
+.nav {
+  background-color: #eef2f7;
+  padding: 11px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.nav a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 9px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 22px;
+  line-height: 1.6;
+}
+
+.section h2 {
+  color: #333333;
+  border-left: 4px solid #0066cc;
+  padding-left: 9px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin: 7px 0;
+}
+
+.skill-list {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.skill-list li {
+  margin-bottom: 7px;
+}
+
+.project {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e1e5ea;
+  border-radius: 6px;
+  background-color: #f8fafc;
+}
+
+.project h3 {
+  margin: 0 0 5px;
+  color: #0066cc;
+}
+
+.project p {
+  margin: 0;
+}
+
+.action {
+  text-align: center;
+  margin: 25px 0 5px;
+}
+
+.action button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.action button:hover {
+  background-color: #004c99;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #dddddd;
+  padding-top: 15px;
+  margin-top: 25px;
+  font-size: 13px;
+  color: #777777;
+}
+
+/* Dark mode đơn giản */
+.page.dark {
+  background-color: #1e1e1e;
+  color: #eeeeee;
+}
+
+.page.dark .container {
+  background-color: #2d2d2d;
+  border-color: #444444;
+}
+
+.page.dark .nav {
+  background-color: #383838;
+}
+
+.page.dark .section h2 {
+  color: #eeeeee;
+}
+
+.page.dark .subtitle,
+.page.dark footer {
+  color: #bbbbbb;
+}
+
+.page.dark .project {
+  background-color: #363636;
+  border-color: #505050;
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding: 20px;
+  }
+
+  .nav a {
+    display: inline-block;
+    margin: 4px 5px;
+  }
+}
