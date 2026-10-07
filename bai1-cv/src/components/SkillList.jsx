@@ -1,3 +1,5 @@
+import React from "react";
+
 function SkillList({ skills }) {
   return (
     <ul className="skill-list">
