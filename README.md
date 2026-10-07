@@ -1,4 +1,4 @@
-# Bài thực hành React: CV cá nhân và máy tính
+# Bài thực hành React: CV cá nhân và máy tính NGÔ VĂN HUY - B25DCTV029
 
 Dự án gồm hai ứng dụng React độc lập, được tạo bằng Vite:
 
